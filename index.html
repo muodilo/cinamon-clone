@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Document</title>
 </head>
+
 <body>
-  
+  <nav class="flex items-center justify-between px-5 md:px-16 lg:px-47 py-5 bg-slate-200 fixed left-0 right-0">
+
+    <div>
+      <p class="text-3xl font-bold">CINNAMON</p>
+    </div>
+
+    <div class="hidden md:flex gap-16 items-center">
+      <ul class="flex gap-7 font-semibold">
+        <li>Projects</li>
+        <li>Services</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Blog</li>
+      </ul>
+
+      <div class="flex items-center gap-5">
+        <!-- Play Button -->
+        <div class="w-13 h-13 flex items-center justify-center border-2 border-[#5135ff] rounded-full cursor-pointer shadow-lg transition hover:bg-[#5135ff] group">
+          <div class="w-0 h-0 border-l-8 border-t-4 border-b-4 border-transparent border-l-[#5135ff] transition group-hover:border-l-white"></div>
+        </div>
+
+        <!-- Collaborate Button -->
+        <button class="bg-[#5135ff] font-bold text-white px-6 py-3">Let's collaborate</button>
+      </div>
+    </div>
+  </nav>
 </body>
+
 </html>
